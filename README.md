@@ -3,6 +3,12 @@ GitHub Codespaces上でDenoの環境構築はできるのか、それを使っ�
 
 
 下記コマンドにてインストール成功
-```sh
+```shell
 $ curl -fsSL https://deno.land/x/install/install.sh | sh
+```
+
+
+下記コマンドでサンプルコードの実行成功
+```shell
+$ deno run https://deno.land/std/examples/welcome.ts
 ```
